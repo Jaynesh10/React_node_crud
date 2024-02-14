@@ -10,6 +10,7 @@ function CreateStudent() {
 
   const handlesubmit = (e) => {
     e.preventDefault();
+    console.log("submit");
     if (name == "" || phone == "" || email == "") {
       alert("All Fields Required");
     } else {
